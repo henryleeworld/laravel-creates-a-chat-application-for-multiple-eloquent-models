@@ -1,4 +1,4 @@
-# Laravel 10 為多個 Eloquent 模型建立聊天室應用程式
+# Laravel 11 為多個 Eloquent 模型建立聊天室應用程式
 
 引入 musonza 的 chat 套件來擴增為多個 Eloquent 模型建立聊天室應用程式，可以讓成員直接地傳達訊息給其他成員，讓使用者更加有參與感，給予可以盡情分享資訊的環境。
 
@@ -35,5 +35,5 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/974LwPw.png)
+![](https://i.imgur.com/Lk5HHcE.png)
 > 拉近彼此的距離

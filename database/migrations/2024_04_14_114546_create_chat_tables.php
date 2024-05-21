@@ -9,10 +9,8 @@ return new class extends Migration
 {
     /**
      * Run the migrations.
-     *
-     * @return void
      */
-    public function up()
+    public function up(): void
     {
         Schema::create(ConfigurationManager::CONVERSATIONS_TABLE, function (Blueprint $table) {
             $table->bigIncrements('id');
@@ -92,10 +90,8 @@ return new class extends Migration
 
     /**
      * Reverse the migrations.
-     *
-     * @return void
      */
-    public function down()
+    public function down(): void
     {
         Schema::dropIfExists(ConfigurationManager::MESSAGE_NOTIFICATIONS_TABLE);
         Schema::dropIfExists(ConfigurationManager::MESSAGES_TABLE);

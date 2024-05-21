@@ -1,5 +1,4 @@
 import './bootstrap';
-
 import Vue from 'vue';
 import ChatConversations from './components/ChatConversations.vue';
 import ChatForm from './components/ChatForm.vue';

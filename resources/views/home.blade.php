@@ -1,4 +1,5 @@
 @extends('layouts.app')
+
 @section('content')
 @php
 $conversationId = Request::query('conversation_id');
